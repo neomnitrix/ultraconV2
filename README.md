@@ -1,7 +1,5 @@
 
 
-<h2> This version is deprecated. A <a href="https://github.com/kevinnadar22/URL-Shortener-V2/tree/main"> new version </a> of this bot is available. I request you to use that version. This version was meant to just test the bot and users feedback. No further update will be done to this version</h2> <br>
-
 
 
 <p align="center">
