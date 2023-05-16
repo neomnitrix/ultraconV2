@@ -12,7 +12,7 @@ from translation import BATCH
 
 buttons = [
     [
-        InlineKeyboardButton('Batch Short 🏕', callback_data='batch')
+        InlineKeyboardButton('Batch Shot 🏕', callback_data='batch')
     ],
     [
         InlineKeyboardButton('Cancel 🔐', callback_data='cancel')
