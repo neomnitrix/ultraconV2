@@ -49,7 +49,7 @@ async def batch(c, m: Message):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "Batch Short 🏕", callback_data=f"batch#{channel_id}"
+                    "Batch Shot 🏕", callback_data=f"batch#{channel_id}"
                 )
             ],
             [InlineKeyboardButton("Cancel 🔐", callback_data="cancel")],
