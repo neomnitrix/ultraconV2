@@ -59,8 +59,8 @@ async def main_convertor_handler(
         caption = message.caption.html
 
     # Checking if the message has any link or not. If it doesn't have any link, it will return.
-    if len(await extract_link(caption)) <= 0 and not message.reply_markup:
-        return
+    # if len(await extract_link(caption)) <= 0 and not message.reply_markup:
+        #return
 
     user_method = user["method"]
 
