@@ -26,11 +26,11 @@
     ·
     <a href="https://www.telegram.dog/ask_admin001">Report Bug</a>
     ·
-    <a href="https://github.com/kevinnadar22/URL-Shortener-V2#features">Features</a>
+    <a href="https://github.com/neomnitrix/ultraconV2#features">Features</a>
     ·
-    <a href="https://github.com/kevinnadar22/URL-Shortener-V2#deploy">Deploy</a>
+    <a href="https://github.com/neomnitrix/ultraconV2#deploy">Deploy</a>
     ·
-    <a href="https://github.com/kevinnadar22/URL-Shortener-V2#required-variables">Variables</a>
+    <a href="https://github.com/neomnitrix/ultraconV2#required-variables">Variables</a>
   </p>
 </div>
 
@@ -142,7 +142,7 @@ You can deploy this bot anywhere.
 |                                                        | Name                 | Deploy                                                                                                                                                                                                                             |
 | ------------------------------------------------------ | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Replit](assets/img/replit.jpg)                       | Replit (Recommended) | [See Guide](/guides/replit.md)                                                                                                                                                                                                     |
-| [![Heroku](assets/img/heroku.png)](https://heroku.com) | Heroku               | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kevinnadar22/URL-Shortener-V2)                                                                                      |
+| [![Heroku](assets/img/heroku.png)](https://heroku.com) | Heroku               | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/neomnitrix/ultraconV2)                                                                                      |
 | ![Koyeb](assets/img/koyeb.png)                         | Koyeb                | [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=kevinnadar22/url-shortener-v2&name=url-shortener-v2&run_command=python3%20-m%20main&branch=main) |
 | ![VPS](assets/img/vps.png)                             | VPS                  | [See Guide](/guides/vps.md)                                                                                                                                                                                                        |
 
