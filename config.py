@@ -30,7 +30,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
 DATABASE_URL = os.environ.get(
     "mongodb+srv://carryminati:carryminati@cluster0.rf3byeq.mongodb.net/?retryWrites=true&w=majority", None
 )  # mongodb uri from https://www.mongodb.com/
-OWNER_ID = int(os.environ.get("OWNER_ID"))  # id of the owner
+OWNER_ID = int(os.environ.get("OWNER_ID", "5891346529"))  # id of the owner
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
 #  Optionnal variables
