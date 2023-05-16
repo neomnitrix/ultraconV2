@@ -24,7 +24,7 @@
     },
     "CHANNELS": {
       "description": "Enter True if you want the bot to work in Channels also else Leave it as it is",
-      "value": "True",
+      "value": "",
       "required": false
     },
     "CHANNEL_ID": {
