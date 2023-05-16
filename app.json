@@ -12,7 +12,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token from @botfather",
-      "value": "6075544608:AAFuMszvgpWC4cfpJy2-LXque6UwxyhSnSU"
+      "value": ""
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
