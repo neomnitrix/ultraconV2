@@ -1,5 +1,5 @@
 {
-  "name": "Url-Shortener-bot-V2",
+  "name": "UltraconV2",
   "description": "Make short link by using Shortener using API key",
   "stack": "container",
   "logo": "https://i.ibb.co/1mwchh9/Screenshot-2022-07-08-at-11-06-34-AM.png",
@@ -7,39 +7,39 @@
     "telegram",
     "shortener"
   ],
-  "website": "https://github.com/Neutron-Bots",
-  "repository": "https://github.com/kevinnadar22/URL-Shortener-V2",
+  "website": "https://github.com/neomnitrix",
+  "repository": "https://github.com/neomnitrix/ultraconV2",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token from @botfather",
-      "value": ""
+      "value": "6075544608:AAFuMszvgpWC4cfpJy2-LXque6UwxyhSnSU"
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "5891346529"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "34dbf50d81fb975b4813e99f5aa1101f"
     },
     "CHANNELS": {
       "description": "Enter True if you want the bot to work in Channels also else Leave it as it is",
-      "value": "",
+      "value": "True",
       "required": false
     },
     "CHANNEL_ID": {
       "description": "Enter your Channel ID, Leave this to deafault if CHANNELS set to False. Separate each ID by Space.",
-      "value": "",
+      "value": "-1001950298408",
       "required": false
     },
     "ADMINS": {
       "description": "Your Telegram ID and ID of Users you want add as Admin. Separate each ID by comma.",
-      "value": "",
+      "value": "5891346529",
       "required": false
     },
     "OWNER_ID": {
       "description": "ID of the Bot Owner",
-      "value": "",
+      "value": "5891346529",
       "required": true
     },
     "DATABASE_NAME": {
@@ -49,7 +49,7 @@
     },
     "DATABASE_URL":{
       "description": "Your database URI from mongodb.com",
-      "value": "",
+      "value": "mongodb+srv://carryminati:carryminati@cluster0.rf3byeq.mongodb.net/?retryWrites=true&w=majority",
       "required": true
     },
     "UPDATE_CHANNEL":{
@@ -59,7 +59,7 @@
     },
     "LOG_CHANNEL":{
       "description": "Enter Your Log Channel id for information about users",
-      "value": "-100",
+      "value": "-1001950298408",
       "required": true
     }
     ,
