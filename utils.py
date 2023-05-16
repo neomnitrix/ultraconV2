@@ -232,7 +232,7 @@ async def replace_username(text, username):
 
 
 async def extract_link(string):
-    regex = r"@[A-Za-z0-9_]+", text
+    regex = r"@[A-Za-z0-9_]+"
     urls = re.findall(regex, string)
     return ["".join(x) for x in urls]
 
