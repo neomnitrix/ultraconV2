@@ -225,14 +225,14 @@ async def mdisk_droplink_convertor(user, text, alias=""):
 
 async def replace_username(text, username):
     if username:
-        usernames = re.findall(r"@[A-Za-z0-9_]+", text)
+        usernames = re.findall(r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))\s\|\s([a-zA-Z0-9_]){,30}")
         for old_username in usernames:
             text = text.replace(old_username, f"@{username}")
     return text
 
 
 async def extract_link(string):
-    regex = r"@[A-Za-z0-9_]+"
+    regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))\s\|\s([a-zA-Z0-9_]){,30}"
     urls = re.findall(regex, string)
     return ["".join(x) for x in urls]
 
